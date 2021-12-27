@@ -1,7 +1,7 @@
 {
-  "name": "Bicycle",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "Bicycle template",
+  "description": "My portfolio",
   "main": "src/index.js",
   "scripts": {
     "watch": "webpack --mode development --watch",
