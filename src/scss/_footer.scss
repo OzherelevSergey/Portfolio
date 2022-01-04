@@ -1,0 +1,25 @@
+
+footer {
+    background: #222;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.social-icon ul li {
+    display: inline-block;
+}
+
+.social-icon {
+    margin-bottom: 15px; 
+}
+.social-icon ion-icon {
+    color: #fff;
+    font-size: 200%;
+    border-right: 1px solid #fff;
+    padding: 0 10px;
+}
+
+.copyright {
+    font-size: 120%;
+    color: #fff;
+}

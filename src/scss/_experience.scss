@@ -1,0 +1,41 @@
+#experience {
+    background: rgb(0,37,255);
+    background: linear-gradient(45deg, rgba(0,37,255,1) 0%, rgba(85,9,121,1) 20%, rgba(85,9,121,1) 50%, rgba(85,9,121,1) 80%, rgba(0,37,255,1) 100%);
+
+}
+
+.grid-experience-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.grid-experience-items,
+.gride-education-items {
+    background: rgba(1, 51, 52, 0.8);
+    padding: 40px 20px;
+}
+
+.job h4,
+.education h4 {
+    font-size: 180%;
+}
+.job span,
+.education span {
+    font-size: 160%;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+
+.job p,
+.education p {
+    font-size: 160%;
+}
+
+#experience hr {
+    border: 0;
+    border-bottom: 1px solid #fff;
+    margin: 30px 0;
+    
+}

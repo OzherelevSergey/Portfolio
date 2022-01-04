@@ -1,0 +1,59 @@
+
+.grid-about-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 60px;
+}
+
+.sergey {
+    width: 100%;
+}
+
+.intro {
+    font-size: 18px;
+    color: #4c4c4c;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 16px;
+    color: #4c4c4c;
+    margin: 30px 0;
+    width: 90%;
+}
+
+.grid-about-content {
+    padding-top: 115px;
+}
+
+
+.btn:link,
+.btn:visited,
+.btn {
+    width: 200px;
+    background: $redbutton;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 0;
+    border: 2px solid $redbutton;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+    background: transparent;
+    color: #013334;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-title p {
+    font-size: 16px;
+    color: #6f6f6f;
+    margin-top: 20px;
+}

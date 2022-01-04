@@ -59,6 +59,50 @@
         color: $white;
     }
 
+    h1 {
+        font-weight: 700;
+        font-size: 65px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+
+    h1::before {
+        content: '';
+        display: block;
+        height: 2px;
+        width: 100%;
+        background: $skyblue;
+    }
+
+    h1::after {
+        content: '';
+        display: block;
+        height: 2px;
+        width: 100%;
+        background: $skyblue;
+    }
+
+    .portfolio-text-box {
+        width: 1180px;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+
+    .portfolio-text-box span {
+        font-size: 33px;
+        color: $skyblue;
+        margin-top: 15px;
+        display: block;
+    }
+
     &__navigation{
 
         &--inline {
@@ -136,3 +180,5 @@
         }
     }
 }
+
+
