@@ -1,0 +1,34 @@
+#testimonial {
+    background-color: #64cbc0;
+    background-attachment: fixed;
+}
+
+
+.grid-testimonial-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.testimonial-logo img {
+    height: 30px;
+}
+
+#testimonial p {
+    margin: 45px 0;
+    font-size: 160%;
+}
+
+
+.sign img {
+    height: 40px;
+}
+
+.sign {
+    margin-bottom: 15px 0;
+}
+
+
+#testimonial span {
+    font-size: 140%;
+}
