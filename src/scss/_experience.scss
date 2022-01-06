@@ -13,16 +13,22 @@
 .grid-experience-items,
 .gride-education-items {
     background: rgba(1, 51, 52, 0.8);
-    padding: 40px 20px;
+    padding: 60px 40px;
+}
+
+.job, .education {
+    color: $litegrey;
 }
 
 .job h4,
 .education h4 {
-    font-size: 180%;
+    color: $litegrey;
+    font-size: 18px;
 }
 .job span,
 .education span {
-    font-size: 160%;
+    color: $darkgrey;
+    font-size: 16px;
     margin: 10px 0;
     display: inline-block;
 }
@@ -30,7 +36,7 @@
 
 .job p,
 .education p {
-    font-size: 160%;
+    font-size: 16px;
 }
 
 #experience hr {

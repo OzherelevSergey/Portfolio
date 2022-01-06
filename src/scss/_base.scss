@@ -36,6 +36,35 @@ body {
     }
 }
 
+
+h1 {
+    font-weight: 700;
+    font-size: 65px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+
 a {
     text-decoration: none;
     cursor: pointer;
@@ -70,3 +99,5 @@ section {
     display: flex;
     flex-wrap: wrap;
 }
+
+
