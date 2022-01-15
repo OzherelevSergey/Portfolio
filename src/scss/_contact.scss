@@ -1,0 +1,73 @@
+#contact {
+    background: rgb(0,37,255);
+    background: linear-gradient(45deg, rgba(0,37,255,1) 0%, rgba(85,9,121,1) 20%, rgba(85,9,121,1) 50%, rgba(85,9,121,1) 80%, rgba(0,37,255,1) 100%);
+
+
+
+}
+
+.grid-contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.grid-contact-items:nth-child(1) {
+    background: rgba(1, 51, 52, 0.8);
+    padding: 45px 30px;
+
+}
+
+.single-form input[type="text"],
+.single-form input[type="email"],
+.single-form textarea {
+    width: 100%;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.single-form-btn .btn:hover,
+.btn:active {
+    background: #fff;
+    color: #013334;
+}
+
+
+.single-form-btn .btn-n,
+.btn-n:visited,
+.btn-n {
+    width: 200px;
+    background: #fff;
+    color: #013334;
+    display: inline-block;
+    text-align: center;
+    font-size: 160%;
+    padding: 10px 0;
+    border: 2px solid #013334;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.single-form-btn {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.nested-grid-contact-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+}
+
+.nested-grid-contact-items {
+    background: rgba(1, 51, 52, 0.8);
+    padding: 45px 30px;
+}
+
+.nested-grid-contact-items p {
+    color: #fff;
+    font-size: 160%;
+}
